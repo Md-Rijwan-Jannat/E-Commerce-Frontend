@@ -19,7 +19,7 @@ import {
   Heart,
 } from "lucide-react";
 import { homeData } from "@/data/homeData";
-import BrandLogo from "../../../(WithAuthLayout)/_components/ui/BrandLogo";
+import BrandLogo from "../../../../(WithAuthLayout)/_components/ui/BrandLogo";
 import Link from "next/link";
 
 const Footer: React.FC = () => {

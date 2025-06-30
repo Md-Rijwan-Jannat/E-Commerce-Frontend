@@ -17,7 +17,7 @@ import {
   Shield,
 } from "lucide-react";
 import { homeData } from "@/data/homeData";
-import BrandLogo from "../../../(WithAuthLayout)/_components/ui/BrandLogo";
+import BrandLogo from "../../../../(WithAuthLayout)/_components/ui/BrandLogo";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

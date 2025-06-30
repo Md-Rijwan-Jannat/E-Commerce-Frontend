@@ -4,15 +4,13 @@ import React from "react";
 import { homeData } from "@/data/homeData";
 import { motion } from "framer-motion";
 import SectionTitle from "../../ui/SectionTitle";
-import {
-  CategorySlider,
-  FeatureCard,
-  ProductCard,
-  DealSection,
-  NewsletterSection,
-  TestimonialSlider,
-  HeroSection,
-} from "./index";
+import HeroSection from "./HeroSection";
+import CategorySlider from "./CategorySlider";
+import FeatureCard from "../../ui/cards/FeatureCard";
+import ProductCard from "../../ui/cards/ProductCard";
+import DealSection from "./DealSection";
+import TestimonialSlider from "./TestimonialSlider";
+import NewsletterSection from "./NewsletterSection";
 
 const containerVariants = {
   hidden: { opacity: 0 },

@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
-import CategoryCard from "./CategoryCard";
+import CategoryCard from "../../ui/cards/CategoryCard";
 import { cn } from "@/utils/cn";
 
 export interface CategorySliderProps {
